@@ -3,14 +3,14 @@
 	<form id="form" @submit.prevent="onSubmit">
 		<div class="form-control">
 			<label for="text">Text</label>
-			<input type="text" id="text" placeholder="Enter text.."
+			<input type="text" id="text" placeholder="Rent"
 			v-model="text">
 		</div>
 		<div class="form-control">
 			<label for="amount">
 				Amount: <br>
 			</label>
-			<input type="number" id="amount" placeholder="Enter the amount.."
+			<input type="number" id="amount" placeholder="-R2500"
 			v-model="amount">
 		</div>
 		<button class="btn">Add Transaction</button>
